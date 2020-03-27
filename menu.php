@@ -1,5 +1,5 @@
 <?php
-	define("TITLE", "Menu | Franklin's Fine Dining"); //Titl of the Website.
+	define("TITLE", "Menu | Franklin's Fine Dining"); //Title of the Website.
 
 	include('includes/header.php'); //Code used to include de header.
 ?>
