@@ -10,6 +10,10 @@ A warning message in the footer of the page, informs the user if the restaurant 
 
 2. Install and download XAMPP (Be sure to use port: 80 to run the Apache server).
 
+3. Start XAMPP apache server.
+
+4. Download and unzip the repository folder.
+
 The first two images shows the Home page.
 
 ![HOME](https://github.com/anferebu/Restaurant-One-Page-PHP-App/blob/master/Home.jpg)
