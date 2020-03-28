@@ -1,19 +1,19 @@
 <?php
 
-	define("TITLE", "Contact Us | Franklin's Fine Dining");
+	define("TITLE", "Contact Us | Franklin's Fine Dining"); //Title of the website//
 
-	include('includes/header.php');
+	include('includes/header.php'); //Code used to include the header//
 
 ?>
-
+	<!--html section-->
 	<div id="contact">
 
-		<hr style="border: none; height: 18px; width: 114px; background: url('assets/img/hr.png') center center no-repeat; margin: 20px auto;">
+		<hr style="border: none; height: 18px; width: 114px; background: url('assets/img/hr.png') center center no-repeat; margin: 20px auto;"> <!--Decorative detail-->
 
-		<h1>Get in touch with us!</h1>
+		<h1>Get in touch with us!</h1> <!--Slogan-->
 
 		<?php 
-
+			//All the following section of php es a big function that prevents against cyber-attacks//
 			// Check for header injections
 			function has_header_injection($str) {
 				return preg_match( "/[\r\n]/", $str );
@@ -32,7 +32,7 @@
 
 				if ( !$name || !$email || !$msg ) {
 
-					echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
+					echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>'; //Message displayed if the user fogets to fill some box// 
 					exit;
 
 				}
@@ -77,7 +77,7 @@
 
 		<?php } else { ?>
 
-		<form method="post" action="" id="contact-form">
+		<form method="post" action="" id="contact-form"> <!--html form with labels and input types-->
 
 			<label for="name">Your name</label>
 			<input type="text" id="name" name="name">
@@ -97,8 +97,8 @@
 
 		<?php } ?>
 
-		<hr style="border: none; height: 18px; width: 114px; background: url('assets/img/hr.png') center center no-repeat; margin: 20px auto;">
+		<hr style="border: none; height: 18px; width: 114px; background: url('assets/img/hr.png') center center no-repeat; margin: 20px auto;"> <!--Decorative detail-->
 
 	</div><!-- contact -->
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?> <!--Code used to include the footer-->
