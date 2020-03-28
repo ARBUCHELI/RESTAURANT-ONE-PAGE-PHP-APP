@@ -12,7 +12,10 @@ A warning message in the footer of the page, informs the user if the restaurant 
 
 3. Start XAMPP apache server.
 
+5. Configure the root directory of the Apache server to be compatible with the directory where you save the repository folder.
+
 4. Download and unzip the repository folder.
+
 
 The first two images show the Home page.
 
