@@ -4,6 +4,12 @@ Web PHP App designed for a Restaurant.  the App can interact with the browser dy
 
 A warning message in the footer of the page, informs the user if the restaurant is open or closed (When the restaurant is open, the message appears in green color and when the restaurant is closed the restaurant appears in red color).  The implementation of this function is possible using the php-store-hours-master class that updates and calculates automatically the current time, depending of the geographical location of the Restaurant.  This class is an open-source class and its available for developers online.
 
+<strong>INSTRUCTIONS</strong>
+
+1. In order to be able to visualize the web application you need first to download and install XAMPP Apache server.  You can download XAMPP in the following link: https://www.apachefriends.org/download.html.
+
+2. Install and download XAMPP (Be sure to use port: 80 to run the Apache server).
+
 The first two images shows the Home page.
 
 ![HOME](https://github.com/anferebu/Restaurant-One-Page-PHP-App/blob/master/Home.jpg)
