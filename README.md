@@ -12,7 +12,14 @@ A warning message in the footer of the page, informs the user if the restaurant 
 
 3. Start XAMPP apache server.
 
-5. Configure the root directory of the Apache server to be compatible with the directory where you save the repository folder.
+5. Configure the root directory of the Apache server to be compatible with the directory where you save the repository folder.  Follow the instructions:
+
+      - Go to C:\xampp\apache\conf\httpd.conf
+      - Open httpd.conf
+      - Find tag : DocumentRoot "C:/xampp/htdocs"
+      - Edit tag to : DocumentRoot "C:/xampp/htdocs/myproject/web"
+      - Now find tag and change it to < Directory "C:/xampp/htdocs/myproject/web" >
+      - Restart Your Apache
 
 4. Download and unzip the repository folder.
 
