@@ -1,7 +1,7 @@
 <?php
-	define("TITLE", "Menu | Franklin's Fine Dining"); //Title of the Website.
+	define("TITLE", "Menu | Franklin's Fine Dining"); //Title of the Website.//
 
-	include('includes/header.php'); //Code used to include de header.
+	include('includes/header.php'); //Code used to include de header.//
 ?>
 	<!--html section-->
 	<div id="menu-items"> <!--Container with the menu section-->
