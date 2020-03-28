@@ -21,7 +21,17 @@ A warning message in the footer of the page, informs the user if the restaurant 
       - Now find tag and change it to < Directory "C:/xampp/htdocs/myproject/web" >
       - Restart Your Apache
 
-4. Download and unzip the repository folder.
+6. Download and unzip the repository folder.
+
+7. Inside the unziped repository folder you will see the next zipped folders:
+      - assets.rar
+      - img.rar
+      - includes.rar
+      - php-store-hours-master-rar
+   Unzip these folders with the option right click, extract here (please don't select the option that creates a folder with the same name).
+   
+8. Go to your Google Chrome and type localhost:80.  You will see the repository folder listed in an index.  Open the RESTAURANT-ONE-PAGE-APP folder and you will see inside another folder with the same name.  Click in that folder and you will be able to see the App.
+
 
 
 The first two images show the Home page.
