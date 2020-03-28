@@ -14,7 +14,7 @@ A warning message in the footer of the page, informs the user if the restaurant 
 
 4. Download and unzip the repository folder.
 
-The first two images shows the Home page.
+The first two images show the Home page.
 
 ![HOME](https://github.com/anferebu/Restaurant-One-Page-PHP-App/blob/master/Home.jpg)
 
