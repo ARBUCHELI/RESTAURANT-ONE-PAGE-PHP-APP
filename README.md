@@ -39,3 +39,5 @@ The next image shows the Dishes.
 The next image shows the contact page.
 
 ![CONTACT](https://github.com/anferebu/Restaurant-One-Page-PHP-App/blob/master/Contact.jpg)
+
+Author: Andrés R. Bucheli.
